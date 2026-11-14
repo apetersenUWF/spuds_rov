@@ -21,6 +21,7 @@ Contains documentation such as network ports, ips, communication protocols, mess
 Contains the program running on the Raspberry Pi Pico on the morthership. Run by connecting the pico to the Raspberry pi 4 over USB and using:
 
 ```bash
+cd mothership-pico
 mpremote run main.py
 ```
 
@@ -28,6 +29,7 @@ mpremote run main.py
 Contains the program to setup the pi cam, configure the encoder, and output the video to the MediaMTX stream. Run using:
 
 ```bash
+cd rov-pi
 python3 webtrc_stream.py
 ```
 
@@ -35,6 +37,7 @@ python3 webtrc_stream.py
 Contains the program running on the Raspberry Pi Pico on the underwater ROV. Run by connecting the pico to the Raspberry pi 4 over USB and using:
 
 ```bash
+cd rov-pico
 mpremote run main.py
 ```
 
