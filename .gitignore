@@ -1,0 +1,62 @@
+# ---------- C# / Visual Studio (topside/) ----------
+[Bb]in/
+[Oo]bj/
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm64/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+*.pdb
+*.cache
+*.pubxml.user
+TestResults/
+artifacts/
+# Old-style NuGet package folder (new-style projects don't create it)
+packages/
+*.nupkg
+# WebView2 creates a browser profile folder next to the app at runtime
+*.WebView2/
+
+# ---------- Python (rov-pi/, tools/) ----------
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ---------- Raspberry Pi runtime files ----------
+# MediaMTX program and its download (keep mediamtx.yml, the config)
+rov-pi/mediamtx
+mediamtx_*.tar.gz
+# Camera test captures such as test.jpg from rpicam-still
+rov-pi/*.jpg
+rov-pi/*.h264
+# Recorded video and logs
+recordings/
+*.mp4
+*.mkv
+*.log
+logs/
+
+# ---------- Secrets (never commit) ----------
+.env
+*.env
+secrets.*
+*.pem
+*.key
+
+# ---------- Editors ----------
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---------- Operating systems ----------
+Thumbs.db Desktop.ini .DS_Store
