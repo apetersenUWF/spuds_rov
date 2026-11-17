@@ -42,7 +42,18 @@ mpremote run main.py
 ```
 
 ## tools
-Contains test scripts pertaining to the various sensors and microcontrollers.
+Contains test scripts pertaining to the various sensors and microcontrollers. Relavent commands for running micropython programs with mpremote are:
+
+```bash
+cd tools/testing
+mpremote run imu_test.py
+```
+
+For programs needing input inside the terminal:
+```bash
+cd tools/testing
+picorun esc_test.py
+```
 
 ## topside
 Contains the solution to run the main UI in Microsoft Visual Studio.
