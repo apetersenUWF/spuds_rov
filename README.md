@@ -53,7 +53,11 @@ For programs needing input inside the terminal:
 ```bash
 cd tools/testing
 picorun esc_test.py
+^D to run the program
+^C to stop the program
+^X to exit
 ```
+
 
 ## topside
 Contains the solution to run the main UI in Microsoft Visual Studio.
